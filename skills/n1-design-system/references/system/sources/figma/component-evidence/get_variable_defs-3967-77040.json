@@ -1,0 +1,19 @@
+{
+  "observedAt": "2026-10-15T03:40:43.988627+00:00",
+  "tool": "get_variable_defs",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "3967:77040"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success/main\":\"#0f913b\",\"grey/600\":\"#637381\",\"border/divider\":\"#919eab33\",\"shadow/z8\":\"Effect(type: DROP_SHADOW, color: #919EAB29, offset: (0, 8), radius: 16, spread: 0)\"}"
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "c66ecf56-a98e-4f8e-b293-d32f8b13cd4a"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "observedAt": "2026-10-15T03:59:27.922779+00:00",
+  "tool": "get_metadata",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "194:62777"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "<frame id=\"194:62777\" name=\"TextField\" x=\"4820\" y=\"8214\" width=\"2241\" height=\"428\">\n  <symbol id=\"196:62341\" name=\"Size=LG, State=Enabled, 👁️ Value=False\" x=\"18\" y=\"134\" width=\"320\" height=\"54\" />\n  <symbol id=\"1670:171359\" name=\"Size=SM, State=Enabled, 👁️ Value=False\" x=\"18\" y=\"236\" width=\"320\" height=\"40\" />\n  <symbol id=\"1670:171141\" name=\"Size=LG, State=Enabled, 👁️ Value=True\" x=\"18\" y=\"32\" width=\"320\" height=\"54\" />\n  <symbol id=\"1670:171367\" name=\"Size=SM, State=Enabled, 👁️ Value=True\" x=\"18\" y=\"324\" width=\"320\" height=\"40\" />\n  <symbol id=\"196:62389\" name=\"Size=LG, State=Hovered, 👁️ Value=False\" x=\"354\" y=\"134\" width=\"320\" height=\"54\" />\n  <symbol id=\"1670:171378\" name=\"Size=SM, State=Hovered, 👁️ Value=False\" x=\"354\" y=\"236\" width=\"320\" height=\"40\" />\n  <symbol id=\"1670:171152\" name=\"Size=LG, State=Hovered, 👁️ Value=True\" x=\"354\" y=\"32\" width=\"320\" height=\"54\" />\n  <symbol id=\"1670:171386\" name=\"Size=SM, State=Hovered, 👁️ Value=True\" x=\"354\" y=\"324\" width=\"320\" height=\"40\" />\n  <symbol id=\"196:62437\" name=\"Size=LG, State=Focused, 👁️ Value=False\" x=\"690\" y=\"134\" width=\"320\" height=\"54\" />\n  <symbol id=\"1670:171397\" name=\"Size=SM, State=Focused, 👁️ Value=False\" x=\"690\" y=\"236\" width=\"320\" height=\"40\" />\n  <symbol id=\"1670:171163\" name=\"Size=LG, State=Focused, 👁️ Value=True\" x=\"690\" y=\"32\" width=\"320\" height=\"54\" />\n  <symbol id=\"1670:171405\" name=\"Size=SM, State=Focused, 👁️ Value=True\" x=\"690\" y=\"324\" width=\"320\" height=\"40\" />\n  <symbol id=\"196:62485\" name=\"Size=LG, State=Error, 👁️ Value=False\" x=\"1026\" y=\"134\" width=\"320\" height=\"54\" />\n  <symbol id=\"1670:171416\" name=\"Size=SM, State=Error, 👁️ Value=False\" x=\"1026\" y=\"236\" width=\"320\" height=\"40\" />\n  <symbol id=\"1670:171174\" name=\"Size=LG, State=Error, 👁️ Value=True\" x=\"1026\" y=\"32\" width=\"320\" height=\"54\" />\n  <symbol id=\"1670:171424\" name=\"Size=SM, State=Error, 👁️ Value=True\" x=\"1026\" y=\"324\" width=\"320\" height=\"40\" />\n  <symbol id=\"196:62533\" name=\"Size=LG, State=Disabled, 👁️ Value=False\" x=\"1362\" y=\"134\" width=\"320\" height=\"54\" />\n  <symbol id=\"4259:26474\" name=\"Size=LG, State=Readonly, 👁️ Value=False\" x=\"1698\" y=\"134\" width=\"320\" height=\"54\" />\n  <symbol id=\"1670:171435\" name=\"Size=SM, State=Disabled, 👁️ Value=False\" x=\"1362\" y=\"236\" width=\"320\" height=\"40\" />\n  <symbol id=\"4259:26525\" name=\"Size=SM, State=Readonly, 👁️ Value=False\" x=\"1698\" y=\"236\" width=\"320\" height=\"40\" />\n  <symbol id=\"1670:171185\" name=\"Size=LG, State=Disabled, 👁️ Value=True\" x=\"1362\" y=\"32\" width=\"320\" height=\"54\" />\n  <symbol id=\"4259:26498\" name=\"Size=LG, State=Readonly, 👁️ Value=True\" x=\"1698\" y=\"32\" width=\"320\" height=\"54\" />\n  <symbol id=\"1670:171443\" name=\"Size=SM, State=Disabled, 👁️ Value=True\" x=\"1362\" y=\"324\" width=\"320\" height=\"40\" />\n  <symbol id=\"4259:26549\" name=\"Size=SM, State=Readonly, 👁️ Value=True\" x=\"1698\" y=\"324\" width=\"320\" height=\"40\" />\n</frame>"
+      },
+      {
+        "type": "text",
+        "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "d337b5cb-002d-4223-af12-f7ce9d950e7b"
+    }
+  }
+}

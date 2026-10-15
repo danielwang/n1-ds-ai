@@ -1,0 +1,23 @@
+{
+  "observedAt": "2026-10-15T03:35:21.746238+00:00",
+  "tool": "get_metadata",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "886:226439"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "<symbol id=\"886:226439\" name=\"_docs/BlockTitle\" x=\"240\" y=\"141\" width=\"960\" height=\"128\">\n  <rounded-rectangle id=\"2928:176461\" name=\"space\" x=\"0\" y=\"0\" width=\"80\" height=\"80\" />\n  <frame id=\"2928:175346\" name=\"stack\" x=\"0\" y=\"80\" width=\"57\" height=\"24\">\n    <instance id=\"2589:140644\" name=\"icons/duotone/ic-solar:double-alt-arrow-right-bold-duotone\" x=\"0\" y=\"0\" width=\"24\" height=\"24\" />\n    <text id=\"0:2176\" name=\"title\" x=\"24\" y=\"1.5\" width=\"33\" height=\"21\" />\n  </frame>\n  <rounded-rectangle id=\"2928:175854\" name=\"space\" x=\"0\" y=\"104\" width=\"24\" height=\"24\" />\n</symbol>"
+      },
+      {
+        "type": "text",
+        "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "856cd42c-7080-42f5-9f72-8c2bff400015"
+    }
+  }
+}

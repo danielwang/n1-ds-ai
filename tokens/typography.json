@@ -1,0 +1,153 @@
+{
+  "$extensions": {
+    "design.nebulaone.figma": {
+      "formatVersion": 1,
+      "status": "partial",
+      "category": "typography",
+      "sourceFileKey": "01imXcjljmBfqXhqFmv4kz",
+      "selectedNodeId": "915:56433",
+      "scope": "sampled-node-definitions-and-scoped-library-search",
+      "completeLibraryExport": false,
+      "collections": null,
+      "modes": null,
+      "aliasGraph": null,
+      "primitiveSemanticClassification": "unknown",
+      "missingInformation": [
+        "complete-library-enumeration",
+        "mode-names-and-ids",
+        "values-by-mode",
+        "alias-targets",
+        "variable-ids",
+        "definition-level-collection-membership",
+        "primitive-semantic-relationships"
+      ],
+      "discoveredDefinitions": [],
+      "unconvertedDefinitions": [
+        {
+          "name": "Body-Small",
+          "originalName": "Body-Small",
+          "rawValue": "Font(family: \"Chakra Petch\", style: Regular, size: 14, weight: 400, lineHeight: 20, letterSpacing: 0.3499999940395355)",
+          "valueSemantics": "node-observed-value-not-canonical-definition",
+          "variableId": null,
+          "collectionId": null,
+          "collectionName": null,
+          "modeId": null,
+          "modeName": null,
+          "aliasStatus": "not-exposed",
+          "classification": "unknown",
+          "sources": [
+            {
+              "rawValue": "Font(family: \"Chakra Petch\", style: Regular, size: 14, weight: 400, lineHeight: 20, letterSpacing: 0.3499999940395355)",
+              "fileKey": "01imXcjljmBfqXhqFmv4kz",
+              "nodeId": "1657:123777",
+              "tool": "get_variable_defs",
+              "observedAt": "2026-10-15T03:26:17.647818+00:00",
+              "evidence": "sources/figma/token-evidence/get_variable_defs-1657-123777.json",
+              "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=1657-123777"
+            },
+            {
+              "rawValue": "Font(family: \"Chakra Petch\", style: Regular, size: 14, weight: 400, lineHeight: 20, letterSpacing: 0.3499999940395355)",
+              "fileKey": "01imXcjljmBfqXhqFmv4kz",
+              "nodeId": "189:123170",
+              "tool": "get_variable_defs",
+              "observedAt": "2026-10-15T03:26:49.630170+00:00",
+              "evidence": "sources/figma/token-evidence/get_variable_defs-189-123170.json",
+              "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=189-123170"
+            },
+            {
+              "rawValue": "Font(family: \"Chakra Petch\", style: Regular, size: 14, weight: 400, lineHeight: 20, letterSpacing: 0.3499999940395355)",
+              "fileKey": "01imXcjljmBfqXhqFmv4kz",
+              "nodeId": "45:58184",
+              "tool": "get_variable_defs",
+              "observedAt": "2026-10-15T03:26:41.980059+00:00",
+              "evidence": "sources/figma/token-evidence/get_variable_defs-45-58184.json",
+              "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=45-58184"
+            },
+            {
+              "rawValue": "Font(family: \"Chakra Petch\", style: Regular, size: 14, weight: 400, lineHeight: 20, letterSpacing: 0.3499999940395355)",
+              "fileKey": "01imXcjljmBfqXhqFmv4kz",
+              "nodeId": "52:83177",
+              "tool": "get_variable_defs",
+              "observedAt": "2026-10-15T03:26:45.169270+00:00",
+              "evidence": "sources/figma/token-evidence/get_variable_defs-52-83177.json",
+              "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=52-83177"
+            },
+            {
+              "rawValue": "Font(family: \"Chakra Petch\", style: Regular, size: 14, weight: 400, lineHeight: 20, letterSpacing: 0.3499999940395355)",
+              "fileKey": "01imXcjljmBfqXhqFmv4kz",
+              "nodeId": "90:70905",
+              "tool": "get_variable_defs",
+              "observedAt": "2026-10-15T03:26:43.399124+00:00",
+              "evidence": "sources/figma/token-evidence/get_variable_defs-90-70905.json",
+              "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=90-70905"
+            }
+          ],
+          "reason": "MCP definition does not expose explicit units or full typed definition",
+          "parsedValue": {
+            "fontFamily": "Chakra Petch",
+            "fontStyle": "Regular",
+            "fontWeight": 400.0,
+            "fontSize": {
+              "value": 14.0,
+              "unit": null
+            },
+            "lineHeight": {
+              "value": 20.0,
+              "unit": null
+            },
+            "letterSpacing": {
+              "value": 0.3499999940395355,
+              "unit": null
+            }
+          }
+        },
+        {
+          "name": "desktop/subtitle1",
+          "originalName": "desktop/subtitle1",
+          "rawValue": "Font(family: \"Segoe UI\", style: Semibold, size: 16, weight: 600, lineHeight: 24, letterSpacing: 0)",
+          "valueSemantics": "node-observed-value-not-canonical-definition",
+          "variableId": null,
+          "collectionId": null,
+          "collectionName": null,
+          "modeId": null,
+          "modeName": null,
+          "aliasStatus": "not-exposed",
+          "classification": "unknown",
+          "sources": [
+            {
+              "rawValue": "Font(family: \"Segoe UI\", style: Semibold, size: 16, weight: 600, lineHeight: 24, letterSpacing: 0)",
+              "fileKey": "01imXcjljmBfqXhqFmv4kz",
+              "nodeId": "45:58184",
+              "tool": "get_variable_defs",
+              "observedAt": "2026-10-15T03:26:41.980059+00:00",
+              "evidence": "sources/figma/token-evidence/get_variable_defs-45-58184.json",
+              "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=45-58184"
+            }
+          ],
+          "reason": "MCP definition does not expose explicit units or full typed definition",
+          "parsedValue": {
+            "fontFamily": "Segoe UI",
+            "fontStyle": "Semibold",
+            "fontWeight": 600.0,
+            "fontSize": {
+              "value": 16.0,
+              "unit": null
+            },
+            "lineHeight": {
+              "value": 24.0,
+              "unit": null
+            },
+            "letterSpacing": {
+              "value": 0.0,
+              "unit": null
+            }
+          }
+        }
+      ],
+      "conflicts": [],
+      "exportedTokenCount": 0,
+      "observedDefinitionCount": 2,
+      "metadataOnlyDefinitionCount": 0
+    }
+  }
+}

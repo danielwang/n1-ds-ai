@@ -1,0 +1,39 @@
+{
+  "observedAt": "2026-10-15T03:40:42.563735+00:00",
+  "tool": "get_design_context",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "189:123170",
+    "clientLanguages": "unknown",
+    "clientFrameworks": "unknown",
+    "skillNames": "resource:figma-design-to-code",
+    "excludeScreenshot": true
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "const assetPathPrefix = \"https://www.figma.com/api/mcp/asset/c51ae749-fd71-4bde-a5c6-76933c47e960\";\nconst imgGroup14693 = `${assetPathPrefix}/8dfff.svg`;\nconst imgImg74571 = `${assetPathPrefix}/85b74.png`;\n\nfunction DesignTeamLogo({ className }: { className?: string }) {\n  return (\n    <div className={className || \"h-[77px] relative w-[250px]\"} data-node-id=\"67:138135\" data-name=\"_Design Team Logo\">\n      <div className=\"absolute content-stretch flex items-start left-0 top-0\" data-node-id=\"6833:16002\" data-name=\"UX Logo\">\n        <div className=\"content-stretch flex gap-[24px] items-center px-[15px] py-[10px] relative rounded-[8px] shrink-0\" data-node-id=\"6833:17916\" data-name=\"UX Logo\">\n          <div className=\"h-[44.271px] relative shrink-0 w-[58.648px]\" data-node-id=\"6833:17917\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgGroup14693} />\n          </div>\n          <p className=\"[word-break:break-word] bg-clip-text bg-white font-['Outfit:Bold'] font-bold h-[56.727px] leading-[normal] relative shrink-0 text-[20.364px] text-[transparent] w-[136.617px]\" data-node-id=\"6833:17922\">\n            EXPERIENCE\n            <br aria-hidden />\n            {`& DESIGN`}\n          </p>\n        </div>\n      </div>\n    </div>\n  );\n}\n\nexport default function MethodologyLayout({ className }: { className?: string }) {\n  return (\n    <div className={className || \"bg-white border border-black border-solid h-[2039px] overflow-clip relative rounded-[16px] w-[2042px]\"} data-node-id=\"189:123170\" data-name=\"_methodology/Layout\">\n      <div className=\"absolute bg-[#1e2529] content-stretch flex flex-col items-start left-[-1px] right-[-1px] top-[-1px]\" data-node-id=\"189:122920\" data-name=\"_methodology/Header\">\n        <div className=\"content-stretch flex flex-col gap-[16px] items-start overflow-clip px-[54px] py-[32px] relative shrink-0 w-full\" data-node-id=\"I189:122920;67:137424\" data-name=\"Toolkit - header\">\n          <div className=\"h-[120px] relative shrink-0 w-full\" data-node-id=\"I189:122920;67:137425\">\n            <div className=\"[word-break:break-word] absolute contents leading-[normal] left-0 not-italic top-0 whitespace-nowrap\" data-node-id=\"I189:122920;67:137426\">\n              <p className=\"absolute font-['Segoe_UI:Semibold'] left-0 text-[24px] text-[color:var(--text\\/disabled,#919eab)] top-0 uppercase\" data-node-id=\"I189:122920;67:137427\">\n                UX design methodology\n              </p>\n              <p className=\"absolute bg-clip-text bg-gradient-to-r font-['Proxima_Nova:Bold'] from-[#37c5f0] left-0 text-[64px] text-[transparent] to-[#4759a7] top-[50px] via-[#6b52a2] via-[50.5%]\" data-node-id=\"I189:122920;67:137428\">\n                UX Research vs UX Analytics\n              </p>\n            </div>\n            <DesignTeamLogo className=\"absolute h-[77px] right-[-19px] top-[24px] w-[250px]\" />\n          </div>\n        </div>\n      </div>\n      <div className=\"absolute bottom-[47px] content-stretch flex gap-[8px] items-center justify-end right-[53px] w-[326px]\" data-node-id=\"189:123165\" data-name=\"_watermark\">\n        <div className=\"[word-break:break-word] font-['Chakra_Petch:Regular'] leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--grey\\/900,#161c24)] text-right tracking-[0.35px] w-[219px]\" data-node-id=\"I189:123165;189:111891\">\n          <p className=\"leading-[20px] mb-0\">Daniel Wang, UX Designer</p>\n          <p className=\"leading-[20px]\">dwang@gocloudforce.com</p>\n        </div>\n        <div className=\"relative rounded-[1620px] shrink-0 size-[48px]\" data-node-id=\"I189:123165;6659:43223\" data-name=\"IMG_7457 1\">\n          <img alt=\"\" className=\"absolute inset-0 max-w-none object-cover pointer-events-none rounded-[1620px] size-full\" src={imgImg74571} />\n        </div>\n      </div>\n    </div>\n  );\n}"
+      },
+      {
+        "type": "text",
+        "text": "SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.\n1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens\n2. Convert React syntax to the target framework/library\n3. Transform all Tailwind classes to the target styling system while preserving exact visual design\n4. Follow the project's existing patterns and conventions\nDO NOT install any Tailwind as a dependency unless the user instructs you to do so.\n"
+      },
+      {
+        "type": "text",
+        "text": "Node ids have been added to the code as data attributes, e.g. `data-node-id=\"1:2\"`."
+      },
+      {
+        "type": "text",
+        "text": "These styles are contained in the design: Body-Small: Font(family: \"Chakra Petch\", style: Regular, size: 14, weight: 400, lineHeight: 20, letterSpacing: 0.3499999940395355)."
+      },
+      {
+        "type": "text",
+        "text": "The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources."
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "71a7d653-00a2-4e69-89f9-edd00b47eea2"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "observedAt": "2026-10-15T03:41:05.481632+00:00",
+  "tool": "get_variable_defs",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "0:8956"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"primary/main\":\"#637381\",\"error/main\":\"#d82934\",\"primary/darker\":\"#161c24\",\"white/main\":\"#ffffff\",\"warning/main\":\"#e88310\",\"main <-> light/info\":\"#44adda\",\"grey/200\":\"#ecf0f3\",\"black/main\":\"#000000\",\"grey/400\":\"#c4cdd5\",\"primary/dark\":\"#212b36\"}"
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "65168c85-e260-487b-994a-d9669e96e9ed"
+    }
+  }
+}

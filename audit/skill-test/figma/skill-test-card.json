@@ -1,0 +1,23 @@
+{
+  "observedAt": "2026-10-15T04:00:22.046122+00:00",
+  "tool": "get_metadata",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "1026:27381"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "<frame id=\"1026:27381\" name=\"Card\" x=\"20780\" y=\"9632\" width=\"747\" height=\"1276\">\n  <symbol id=\"141:26396\" name=\"Type=Container, Title=No\" x=\"20\" y=\"20\" width=\"690\" height=\"361\" />\n  <symbol id=\"1026:27382\" name=\"Type=Container, Title=Yes\" x=\"20\" y=\"401\" width=\"690\" height=\"361\" />\n  <symbol id=\"3540:17990\" name=\"Type=Data Group, Title=Yes\" x=\"20\" y=\"1011\" width=\"300\" height=\"200\" />\n  <symbol id=\"3540:17986\" name=\"Type=Data Group, Title=No\" x=\"20\" y=\"787\" width=\"300\" height=\"200\" />\n</frame>"
+      },
+      {
+        "type": "text",
+        "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "0ab6675c-379c-4689-aedc-9e239c3fe165"
+    }
+  }
+}

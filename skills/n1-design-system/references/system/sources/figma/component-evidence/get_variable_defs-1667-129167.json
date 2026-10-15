@@ -1,0 +1,19 @@
+{
+  "observedAt": "2026-10-15T03:33:48.448591+00:00",
+  "tool": "get_variable_defs",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "1667:129167"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"global/inherit/color\":\"#ffffff\",\"components/button-small\":\"Font(family: \\\"Segoe UI\\\", style: Bold, size: 12, weight: 700, lineHeight: 22, letterSpacing: 0)\",\"button/spacing\":\"8\",\"button/[small]--px\":\"12\",\"button/[small]--height\":\"30\",\"button/radius\":\"8\",\"button/min-width\":\"64\",\"global/inherit/bg\":\"#212b36\",\"secondary/contrast-text\":\"#ffffff\",\"primary/dark\":\"#212b36\",\"info/contrast-text\":\"#ffffff\",\"info/main\":\"#44adda\",\"primary/contrast-text\":\"#ffffff\",\"secondary/main\":\"#44adda\",\"success/contrast-text\":\"#ffffff\",\"success/main\":\"#0f913b\",\"warning/contrast-text\":\"#212b36\",\"warning/main\":\"#e88310\",\"error/contrast-text\":\"#ffffff\",\"error/main\":\"#d82934\",\"global/inherit/bg-hovered\":\"#454f5b\",\"primary/darker\":\"#161c24\",\"info/dark\":\"#1b76ac\",\"secondary/dark\":\"#1b76ac\",\"success/dark\":\"#07683b\",\"warning/dark\":\"#a74d08\",\"error/dark\":\"#9b1435\",\"text/disabled\":\"#919eab\",\"action/disabled-bg\":\"#ecf0f3\",\"components/button-large\":\"Font(family: \\\"Segoe UI\\\", style: Bold, size: 15, weight: 700, lineHeight: 26, letterSpacing: 0)\",\"button/[large]--px\":\"24\",\"button/[large]--height\":\"48\",\"components/button-medium\":\"Font(family: \\\"Segoe UI\\\", style: Bold, size: 14, weight: 700, lineHeight: 24, letterSpacing: 0)\",\"button/[medium]--px\":\"16\",\"button/[medium]--height\":\"36\",\"text/primary\":\"#161c24\",\"components/button/outlined\":\"#637381\",\"primary/main\":\"#637381\",\"secondary/48%\":\"#6b52a27a\",\"info/48%\":\"#37c5f07a\",\"primary/48%\":\"#37c5f07a\",\"success/48%\":\"#22c55e7a\",\"warning/48%\":\"#ffab007a\",\"error/48%\":\"#ff56307a\",\"action/hover\":\"#dfe3e880\",\"secondary/8%\":\"#6b52a214\",\"info/8%\":\"#37c5f014\",\"primary/8%\":\"#37c5f014\",\"success/8%\":\"#22c55e14\",\"warning/8%\":\"#ffab0014\",\"error/8%\":\"#ff563014\",\"action/disabled\":\"#919eab\",\"border/border\":\"#c4cdd5\",\"grey/300\":\"#dfe2e8\",\"dark <-> light/primary\":\"#212b36\",\"dark <-> light/info\":\"#1b76ac\",\"dark <-> light/secondary\":\"#1b76ac\",\"dark <-> light/success\":\"#07683b\",\"dark <-> light/warning\":\"#a74d08\",\"System/Red/cf-color-red-100\":\"#fde0d4\",\"grey/400\":\"#c4cdd5\",\"secondary/16%\":\"#6b52a229\",\"info/16%\":\"#37c5f029\",\"primary/16%\":\"#37c5f029\",\"success/16%\":\"#22c55e29\",\"warning/16%\":\"#ffab0029\",\"error/16%\":\"#ff563029\",\"_local-docs/[components]--radius\":\"24\",\"_local-docs/[components]--color\":\"#637381\"}"
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "783133fe-9730-484c-ad77-f4cda7bce731"
+    }
+  }
+}

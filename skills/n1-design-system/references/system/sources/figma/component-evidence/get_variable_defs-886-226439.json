@@ -1,0 +1,19 @@
+{
+  "observedAt": "2026-10-15T03:41:15.633126+00:00",
+  "tool": "get_variable_defs",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "886:226439"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"warning/main\":\"#e88310\",\"text/primary\":\"#161c24\",\"desktop/h6\":\"Font(family: \\\"Segoe UI\\\", style: Bold, size: 14, weight: 700, lineHeight: 21, letterSpacing: 0)\"}"
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "617264e0-057f-4983-bb49-e1b3825c8d9b"
+    }
+  }
+}

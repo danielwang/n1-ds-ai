@@ -1,0 +1,24 @@
+{
+  "observedAt": "2026-10-15T03:25:50.151038+00:00",
+  "tool": "get_variable_defs",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "915:56433"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "You currently have nothing selected. You need to select a layer first before using this tool."
+      },
+      {
+        "type": "text",
+        "text": "Figma Debug UUID: 91d5493f-ff3d-4040-a9ea-fc8e58fc68c7"
+      }
+    ],
+    "isError": true,
+    "_meta": {
+      "mcpRequestId": "91d5493f-ff3d-4040-a9ea-fc8e58fc68c7"
+    }
+  }
+}

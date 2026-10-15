@@ -1,0 +1,35 @@
+{
+  "observedAt": "2026-10-15T03:40:25.176402+00:00",
+  "tool": "get_design_context",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "6849:1347",
+    "clientLanguages": "unknown",
+    "clientFrameworks": "unknown",
+    "skillNames": "resource:figma-design-to-code",
+    "excludeScreenshot": true
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "export default function DesignPrinciple({ className }: { className?: string }) {\n  return (\n    <div className={className || \"bg-[var(--grey\\\\/300,#dfe2e8)] h-[444px] overflow-clip relative rounded-[24px] w-[672px]\"} data-node-id=\"6849:1347\" data-name=\"Design Principle\">\n      <div className=\"[word-break:break-word] absolute content-stretch flex flex-col gap-[32px] items-start left-[190px] not-italic top-[50px] w-[460px]\" data-node-id=\"6851:1485\">\n        <p className=\"capitalize font-['Proxima_Nova:Bold'] leading-[normal] relative shrink-0 text-[36px] text-[color:var(--text\\/primary,#161c24)] w-[445px]\" data-node-id=\"6849:1349\">\n          Design for Real Work\n        </p>\n        <div className=\"font-['Proxima_Nova:Regular'] leading-[0] relative shrink-0 text-[18px] text-black w-[445px]\" data-node-id=\"6849:1350\">\n          <p className=\"leading-[1.5] mb-0 whitespace-pre-wrap\">Students and uni staff use nebulaONE to accomplish meaningful work, not to explore technology.</p>\n          <p className=\"leading-[1.5] mb-0 whitespace-pre-wrap\">​</p>\n          <p className=\"leading-[1.5] mb-0 whitespace-pre-wrap\">Every workflow should minimise effort and maximise progress.</p>\n          <p className=\"leading-[1.5] mb-0 whitespace-pre-wrap\">​</p>\n          <p className=\"leading-[1.5] mb-0 whitespace-pre-wrap\">Measure success by:</p>\n          <ul className=\"list-disc\">\n            <li className=\"mb-0 ms-[27px]\">\n              <span className=\"[word-break:break-word] font-['Proxima_Nova:Regular'] leading-[1.5] not-italic\">Time saved</span>\n            </li>\n            <li className=\"mb-0 ms-[27px]\">\n              <span className=\"[word-break:break-word] font-['Proxima_Nova:Regular'] leading-[1.5] not-italic\">Tasks completed</span>\n            </li>\n            <li className=\"mb-0 ms-[27px]\">\n              <span className=\"[word-break:break-word] font-['Proxima_Nova:Regular'] leading-[1.5] not-italic\">Reduced cognitive load</span>\n            </li>\n            <li className=\"leading-[1.5] ms-[27px]\">\n              N<span className=\"[word-break:break-word] font-['Proxima_Nova:Regular'] not-italic\">ot by clicks or prompts.</span>\n            </li>\n          </ul>\n        </div>\n      </div>\n      <div className=\"absolute contents left-0 top-0\" data-node-id=\"6851:1526\">\n        <div className=\"absolute bg-[#0f77b3] bottom-0 left-0 top-0 w-[154.601px]\" data-node-id=\"6849:1348\" />\n        <p className=\"[word-break:break-word] absolute font-['Italianno:Regular'] h-[118px] leading-[150px] left-[7px] not-italic text-[300px] text-[rgba(0,0,0,0.5)] top-[50px] w-[115px]\" data-node-id=\"6849:1351\">\n          1\n        </p>\n      </div>\n    </div>\n  );\n}"
+      },
+      {
+        "type": "text",
+        "text": "SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.\n1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens\n2. Convert React syntax to the target framework/library\n3. Transform all Tailwind classes to the target styling system while preserving exact visual design\n4. Follow the project's existing patterns and conventions\nDO NOT install any Tailwind as a dependency unless the user instructs you to do so.\n"
+      },
+      {
+        "type": "text",
+        "text": "Node ids have been added to the code as data attributes, e.g. `data-node-id=\"1:2\"`."
+      },
+      {
+        "type": "text",
+        "text": "The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources."
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "73a59e01-35e8-4723-b301-45f971c4dff9"
+    }
+  }
+}

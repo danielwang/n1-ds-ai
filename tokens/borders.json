@@ -1,0 +1,105 @@
+{
+  "$extensions": {
+    "design.nebulaone.figma": {
+      "formatVersion": 1,
+      "status": "partial",
+      "category": "borders",
+      "sourceFileKey": "01imXcjljmBfqXhqFmv4kz",
+      "selectedNodeId": "915:56433",
+      "scope": "sampled-node-definitions-and-scoped-library-search",
+      "completeLibraryExport": false,
+      "collections": null,
+      "modes": null,
+      "aliasGraph": null,
+      "primitiveSemanticClassification": "unknown",
+      "missingInformation": [
+        "complete-library-enumeration",
+        "mode-names-and-ids",
+        "values-by-mode",
+        "alias-targets",
+        "variable-ids",
+        "definition-level-collection-membership",
+        "primitive-semantic-relationships"
+      ],
+      "discoveredDefinitions": [
+        {
+          "name": "border/border-light",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "COLOR",
+          "variableSetKey": "a9278e052e6d5ad4789cfb348bda911a8b12f5bd",
+          "key": "54ed73173a71c774b4ffef969c4f2e8d9bc44308",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Themes]",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Themes_/color/border/border-light",
+          "tool": "search_design_system",
+          "query": "border",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "border/border",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "COLOR",
+          "variableSetKey": "a9278e052e6d5ad4789cfb348bda911a8b12f5bd",
+          "key": "97f40d06f0498e63ae5348368af3405d50751fc4",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Themes]",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Themes_/color/border/border",
+          "tool": "search_design_system",
+          "query": "border",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "border/border-dark",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "COLOR",
+          "variableSetKey": "a9278e052e6d5ad4789cfb348bda911a8b12f5bd",
+          "key": "45eee876602711ced4b3ae6c9497a6848e77f599",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Themes]",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Themes_/color/border/border-dark",
+          "tool": "search_design_system",
+          "query": "border",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "border/border-black",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "COLOR",
+          "variableSetKey": "a9278e052e6d5ad4789cfb348bda911a8b12f5bd",
+          "key": "be36ed7773126b5365eec016eef63cb472f22ff3",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Themes]",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Themes_/color/border/border-black",
+          "tool": "search_design_system",
+          "query": "border",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        }
+      ],
+      "unconvertedDefinitions": [],
+      "conflicts": [],
+      "exportedTokenCount": 0,
+      "observedDefinitionCount": 0,
+      "metadataOnlyDefinitionCount": 4
+    }
+  }
+}

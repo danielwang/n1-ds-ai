@@ -1,0 +1,23 @@
+{
+  "observedAt": "2026-10-15T03:26:01.818326+00:00",
+  "tool": "get_metadata",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "67:137263"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "<canvas id=\"67:137263\" name=\"_Local\" x=\"0\" y=\"0\" width=\"0\" height=\"0\">\n  <symbol id=\"67:138361\" name=\"_methodology/Header\" x=\"-670\" y=\"221\" width=\"1429\" height=\"184\" />\n  <symbol id=\"67:138135\" name=\"_Design Team Logo\" x=\"-670\" y=\"11\" width=\"250\" height=\"77\" />\n  <symbol id=\"0:10784\" name=\"_docs/Header\" x=\"1532\" y=\"221\" width=\"1440\" height=\"141\" />\n  <symbol id=\"1657:123777\" name=\"_docs/Layout\" x=\"1532\" y=\"555\" width=\"3600\" height=\"4283\" />\n  <symbol id=\"189:111893\" name=\"_watermark\" x=\"-293\" y=\"11\" width=\"326\" height=\"48\" />\n  <symbol id=\"189:123170\" name=\"_methodology/Layout\" x=\"-696\" y=\"591\" width=\"2042\" height=\"2039\" />\n  <symbol id=\"265:15467\" name=\"_draft-stamp\" x=\"-703\" y=\"3295.12548828125\" width=\"616.2634450753831\" height=\"566.509053239788\" />\n  <symbol id=\"924:72686\" name=\"_swatch\" x=\"36\" y=\"3294\" width=\"202\" height=\"165\" />\n  <instance id=\"3971:80215\" name=\"_swatch\" x=\"-194\" y=\"3397\" width=\"202\" height=\"165\" />\n  <instance id=\"3971:80210\" name=\"_swatch\" x=\"-14\" y=\"3497\" width=\"202\" height=\"165\" />\n  <instance id=\"929:79893\" name=\"Logo\" x=\"325\" y=\"3134\" width=\"120\" height=\"120\" />\n  <frame id=\"1006:40021\" name=\"_Icon-template\" x=\"374\" y=\"3294\" width=\"168\" height=\"216\">\n    <symbol id=\"944:96201\" name=\"layout=TB\" x=\"20\" y=\"20\" width=\"128\" height=\"78\" />\n    <symbol id=\"1006:40022\" name=\"layout=lR\" x=\"20\" y=\"118\" width=\"128\" height=\"48\" />\n  </frame>\n  <symbol id=\"6849:1347\" name=\"Design Principle\" x=\"5462\" y=\"555\" width=\"672\" height=\"444\" />\n  <instance id=\"7948:21061\" name=\"dots\" x=\"-1233\" y=\"290\" width=\"256\" height=\"256\" />\n</canvas>"
+      },
+      {
+        "type": "text",
+        "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "28dbf92a-1a74-415d-b50d-b4a0c7adb736"
+    }
+  }
+}

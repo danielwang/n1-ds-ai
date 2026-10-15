@@ -1,0 +1,243 @@
+{
+  "$extensions": {
+    "design.nebulaone.figma": {
+      "formatVersion": 1,
+      "status": "partial",
+      "category": "radius",
+      "sourceFileKey": "01imXcjljmBfqXhqFmv4kz",
+      "selectedNodeId": "915:56433",
+      "scope": "sampled-node-definitions-and-scoped-library-search",
+      "completeLibraryExport": false,
+      "collections": null,
+      "modes": null,
+      "aliasGraph": null,
+      "primitiveSemanticClassification": "unknown",
+      "missingInformation": [
+        "complete-library-enumeration",
+        "mode-names-and-ids",
+        "values-by-mode",
+        "alias-targets",
+        "variable-ids",
+        "definition-level-collection-membership",
+        "primitive-semantic-relationships"
+      ],
+      "discoveredDefinitions": [
+        {
+          "name": "radius-3",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "e575684707af719adf142217540c2e338d6a9e78",
+          "key": "511571e3a3d7d29a06dfb86cee494acd75d06319",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Radius",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Radius/float/radius-3",
+          "tool": "search_design_system",
+          "query": "radius",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "radius-4",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "e575684707af719adf142217540c2e338d6a9e78",
+          "key": "69387c6c5820f609df000f405ca73ff079cca102",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Radius",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Radius/float/radius-4",
+          "tool": "search_design_system",
+          "query": "radius",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "radius-2",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "e575684707af719adf142217540c2e338d6a9e78",
+          "key": "44ef19bc00974fe5ee182a7c30b8aa59ecb5721c",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Radius",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Radius/float/radius-2",
+          "tool": "search_design_system",
+          "query": "radius",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "radius-1,5",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "e575684707af719adf142217540c2e338d6a9e78",
+          "key": "52d349a6aaae2a082383aec81cf80862e9bb7e30",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Radius",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Radius/float/radius-1_5",
+          "tool": "search_design_system",
+          "query": "radius",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "radius-0,5",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "e575684707af719adf142217540c2e338d6a9e78",
+          "key": "6f5ec99eeeff7d27ba1d06c51fe82408789a37fc",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Radius",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Radius/float/radius-0_5",
+          "tool": "search_design_system",
+          "query": "radius",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "radius-1,75",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "e575684707af719adf142217540c2e338d6a9e78",
+          "key": "7ddf1a046bb9e07eb49ad42769d4397835b7c8df",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Radius",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Radius/float/radius-1_75",
+          "tool": "search_design_system",
+          "query": "radius",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "radius-1,25",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "e575684707af719adf142217540c2e338d6a9e78",
+          "key": "9771e057fe006264373ea4d9dbeb24eb3ebd2230",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Radius",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Radius/float/radius-1_25",
+          "tool": "search_design_system",
+          "query": "radius",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "radius-1",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "e575684707af719adf142217540c2e338d6a9e78",
+          "key": "64c4b1e344b7ee897a7b8939d7e453323b06c9a0",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Radius",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Radius/float/radius-1",
+          "tool": "search_design_system",
+          "query": "radius",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "radius-50%",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "e575684707af719adf142217540c2e338d6a9e78",
+          "key": "0e58339a0a89e4c543a065f0998e0f8c227106a8",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Radius",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Radius/float/radius-50_",
+          "tool": "search_design_system",
+          "query": "radius",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "radius-0,75",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "e575684707af719adf142217540c2e338d6a9e78",
+          "key": "f1920ef70118ff5d5c4aedb0f6bde59141b2b610",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Radius",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Radius/float/radius-0_75",
+          "tool": "search_design_system",
+          "query": "radius",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        }
+      ],
+      "unconvertedDefinitions": [
+        {
+          "name": "radius-1",
+          "originalName": "radius-1",
+          "rawValue": "8",
+          "valueSemantics": "node-observed-value-not-canonical-definition",
+          "variableId": null,
+          "collectionId": null,
+          "collectionName": null,
+          "modeId": null,
+          "modeName": null,
+          "aliasStatus": "not-exposed",
+          "classification": "unknown",
+          "sources": [
+            {
+              "rawValue": "8",
+              "fileKey": "01imXcjljmBfqXhqFmv4kz",
+              "nodeId": "45:58184",
+              "tool": "get_variable_defs",
+              "observedAt": "2026-10-15T03:26:41.980059+00:00",
+              "evidence": "sources/figma/token-evidence/get_variable_defs-45-58184.json",
+              "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=45-58184"
+            }
+          ],
+          "reason": "MCP definition does not expose explicit units or full typed definition",
+          "parsedValue": {
+            "value": 8.0,
+            "unit": null
+          }
+        }
+      ],
+      "conflicts": [],
+      "exportedTokenCount": 0,
+      "observedDefinitionCount": 1,
+      "metadataOnlyDefinitionCount": 10
+    }
+  }
+}

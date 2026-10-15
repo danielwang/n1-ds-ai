@@ -1,0 +1,23 @@
+{
+  "observedAt": "2026-10-15T03:35:20.280078+00:00",
+  "tool": "get_metadata",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "1790:118181"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "<symbol id=\"1790:118181\" name=\"_docs/SmallTitle\" x=\"0\" y=\"31\" width=\"120\" height=\"18\">\n  <text id=\"1790:118090\" name=\"title\" x=\"0\" y=\"0\" width=\"17\" height=\"18\" />\n</symbol>"
+      },
+      {
+        "type": "text",
+        "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "013b1684-d436-4fe3-98f3-53e278220435"
+    }
+  }
+}

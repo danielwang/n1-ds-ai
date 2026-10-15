@@ -1,0 +1,19 @@
+{
+  "observedAt": "2026-10-15T03:33:51.616088+00:00",
+  "tool": "get_variable_defs",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "3581:52469"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"border/divider\":\"#919eab33\",\"border/border-light\":\"#dfe2e8\",\"text/primary\":\"#161c24\",\"components/button-medium\":\"Font(family: \\\"Segoe UI\\\", style: Bold, size: 14, weight: 700, lineHeight: 24, letterSpacing: 0)\",\"button/spacing\":\"8\",\"button/[medium]--px\":\"16\",\"button/[medium]--height\":\"36\",\"button/radius\":\"8\",\"button/min-width\":\"64\",\"components/button/outlined\":\"#637381\",\"global/inherit/color\":\"#ffffff\",\"global/inherit/bg\":\"#212b36\",\"dialog/[action]--spacing\":\"12\",\"spacing-3\":\"24\",\"spacing-2\":\"16\",\"radius-2\":\"16\",\"background/paper\":\"#ffffff\",\"components/dialog-title\":\"Font(family: \\\"Segoe UI\\\", style: Bold, size: 18, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"System/Grey/cf-color-black\":\"#000000\",\"icon button/[medium]--icon\":\"24\",\"icon button/radius\":\"500\",\"dialog/[header]--pl\":\"24\",\"dialog/[header]--py\":\"24\",\"dialog/[header]--pr\":\"24\"}"
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "97465fba-9920-44f9-8f81-b56254b6df69"
+    }
+  }
+}

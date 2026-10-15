@@ -1,0 +1,32 @@
+{
+  "$extensions": {
+    "design.nebulaone.figma": {
+      "formatVersion": 1,
+      "status": "partial",
+      "category": "sizing",
+      "sourceFileKey": "01imXcjljmBfqXhqFmv4kz",
+      "selectedNodeId": "915:56433",
+      "scope": "sampled-node-definitions-and-scoped-library-search",
+      "completeLibraryExport": false,
+      "collections": null,
+      "modes": null,
+      "aliasGraph": null,
+      "primitiveSemanticClassification": "unknown",
+      "missingInformation": [
+        "complete-library-enumeration",
+        "mode-names-and-ids",
+        "values-by-mode",
+        "alias-targets",
+        "variable-ids",
+        "definition-level-collection-membership",
+        "primitive-semantic-relationships"
+      ],
+      "discoveredDefinitions": [],
+      "unconvertedDefinitions": [],
+      "conflicts": [],
+      "exportedTokenCount": 0,
+      "observedDefinitionCount": 0,
+      "metadataOnlyDefinitionCount": 0
+    }
+  }
+}

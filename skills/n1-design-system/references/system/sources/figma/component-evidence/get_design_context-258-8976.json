@@ -1,0 +1,35 @@
+{
+  "observedAt": "2026-10-15T03:41:14.150905+00:00",
+  "tool": "get_design_context",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "258:8976",
+    "clientLanguages": "unknown",
+    "clientFrameworks": "unknown",
+    "skillNames": "resource:figma-design-to-code",
+    "excludeScreenshot": true
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "const assetPathPrefix = \"https://www.figma.com/api/mcp/asset/ec6c63ba-fb14-45d9-9dbf-ec177f63e888\";\nconst imgImage3 = `${assetPathPrefix}/8d8f0.png`;\nconst imgMonitor = `${assetPathPrefix}/667e0.svg`;\nconst imgLaptop = `${assetPathPrefix}/cb4c6.svg`;\n\ntype N1UserProps = {\n  className?: string;\n  type?: \"it\";\n};\n\nfunction N1User({ className, type = \"it\" }: N1UserProps) {\n  return (\n    <div className={className || \"bg-[#f2f2f2] h-[231px] overflow-clip relative rounded-[var(--radius-2,16px)] w-[618px]\"} data-node-id=\"258:8976\">\n      <div className=\"absolute left-[46px] size-[143px] top-[44px]\" data-node-id=\"257:66440\" data-name=\"_users-photo\">\n        <div className=\"absolute inset-0 rounded-[var(--radius-50\\%,279.297px)]\" data-node-id=\"I257:66440;239:249417\" data-name=\"image 3\">\n          <img alt=\"\" className=\"absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius-50\\%,279.297px)] size-full\" src={imgImage3} />\n        </div>\n      </div>\n      <div className=\"[word-break:break-word] absolute contents leading-[0] left-[207px] not-italic text-black top-[58px] tracking-[1px] whitespace-nowrap\" data-node-id=\"257:66442\">\n        <div className=\"-translate-y-1/2 absolute flex flex-col font-['Proxima_Nova:Light'] justify-center left-[207px] text-[36px] top-[105px]\" data-node-id=\"257:66443\">\n          <p className=\"leading-[normal]\">Adam Admin</p>\n        </div>\n        <div className=\"-translate-y-1/2 absolute flex flex-col font-['Proxima_Nova:Regular'] justify-center left-[207px] opacity-70 text-[18px] top-[70px]\" data-node-id=\"257:66444\">\n          <p className=\"leading-[24px]\">IT Admin @ University</p>\n        </div>\n      </div>\n      <div className=\"absolute contents left-[207px] top-[135px]\" data-node-id=\"258:8972\">\n        <div className=\"absolute backdrop-blur-[2px] bg-[#e0d043] h-[38px] left-[207px] rounded-[24px] top-[135px] w-[333px]\" data-node-id=\"258:8973\" />\n        <p className=\"-translate-x-1/2 [word-break:break-word] absolute font-['Proxima_Nova:Regular'] h-[13.029px] leading-[24px] left-[374.52px] not-italic text-[16px] text-black text-center top-[141px] tracking-[1px] w-[305.038px]\" data-node-id=\"258:8974\">{` N1 admin & Agent creator`}</p>\n      </div>\n      <div className=\"absolute content-stretch flex gap-[6px] items-center right-[34px] top-[27px]\" data-node-id=\"7326:55491\" data-name=\"device-indicators\">\n        <div className=\"bg-[#6f650b] content-stretch flex flex-col items-center justify-center relative rounded-[12px] shrink-0 size-[24px]\" data-node-id=\"7326:55492\" data-name=\"device-desktop\">\n          <div className=\"relative shrink-0 size-[14px]\" data-node-id=\"7326:55577\" data-name=\"monitor\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgMonitor} />\n          </div>\n        </div>\n        <div className=\"bg-[#6f650b] content-stretch flex flex-col items-center justify-center relative rounded-[12px] shrink-0 size-[24px]\" data-node-id=\"7326:55494\" data-name=\"device-laptop\">\n          <div className=\"relative shrink-0 size-[14px]\" data-node-id=\"7326:55580\" data-name=\"laptop\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgLaptop} />\n          </div>\n        </div>\n      </div>\n    </div>\n  );\n}"
+      },
+      {
+        "type": "text",
+        "text": "SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.\n1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens\n2. Convert React syntax to the target framework/library\n3. Transform all Tailwind classes to the target styling system while preserving exact visual design\n4. Follow the project's existing patterns and conventions\nDO NOT install any Tailwind as a dependency unless the user instructs you to do so.\n"
+      },
+      {
+        "type": "text",
+        "text": "Node ids have been added to the code as data attributes, e.g. `data-node-id=\"1:2\"`."
+      },
+      {
+        "type": "text",
+        "text": "The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources."
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "b3f779e5-a568-486e-b1e6-adb80891380c"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "observedAt": "2026-10-15T03:33:50.036269+00:00",
+  "tool": "get_variable_defs",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "194:62777"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"text/disabled\":\"#919eab\",\"desktop/body2\":\"Font(family: \\\"Segoe UI\\\", style: Regular, size: 14, weight: 400, lineHeight: 22, letterSpacing: 0)\",\"textfield/[outlined]--px\":\"14\",\"textfield/[outlined][medium]--height\":\"54\",\"textfield/[outlined]--radius\":\"8\",\"components/textfield/outline\":\"#c4cdd5\",\"textfield/[outlined][small]--height\":\"40\",\"text/primary\":\"#161c24\",\"background/paper\":\"#ffffff\",\"text/secondary\":\"#637381\",\"components/input-label\":\"Font(family: \\\"Segoe UI\\\", style: Regular, size: 14, weight: 400, lineHeight: 14, letterSpacing: 0)\",\"Viz/cf-color-celtic-blue\":\"#096adc\",\"error/main\":\"#d82934\",\"action/disabled\":\"#919eab\",\"components/textfield/bg-disable\":\"#f9fafb\",\"System/Grey/cf-color-grey-800\":\"#212b36\",\"_local-docs/[components]--radius\":\"24\",\"_local-docs/[components]--color\":\"#637381\"}"
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "f0889cc3-4171-4e36-b840-b0a8a0f121e8"
+    }
+  }
+}

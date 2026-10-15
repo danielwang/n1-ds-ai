@@ -1,0 +1,23 @@
+{
+  "system": "N1 (nebulaONE)",
+  "fileKey": "01imXcjljmBfqXhqFmv4kz",
+  "nodeId": "915:56433",
+  "sourceUrl": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=915-56433",
+  "mcpEndpoint": "https://mcp.figma.com/mcp",
+  "accessPolicy": "read-only",
+  "accessVerified": true,
+  "extractionStatus": "partial-node-token-snapshot",
+  "accessVerifiedAt": "2026-10-15T03:27:58.823693+00:00",
+  "accessEvidence": "sources/figma/token-evidence/get_metadata-915-56433.json",
+  "componentDocumentation": {
+    "status": "published-structure-with-review-gaps",
+    "publishedEntryCount": 492,
+    "componentSetCount": 112,
+    "standaloneComponentCount": 380,
+    "observedVariantMemberCount": 804,
+    "readableReferencedPageCount": 12,
+    "inventoryEvidence": "sources/figma/component-evidence/list_file_components_for_code_connect-file.json",
+    "coverageReport": "audit/component-documentation-coverage.md",
+    "furtherInspection": "stopped-on-figma-tool-call-limit"
+  }
+}

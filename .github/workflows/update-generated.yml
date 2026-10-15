@@ -1,0 +1,71 @@
+name: Propose generated snapshot update
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm_private_update:
+        description: 'I authorize a draft PR in this private repository from committed evidence'
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: n1-generated-update
+  cancel-in-progress: false
+
+jobs:
+  propose:
+    if: >-
+      vars.N1_ENABLE_UPDATE_PRS == 'true' &&
+      github.event.repository.private == true &&
+      inputs.confirm_private_update == true &&
+      github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    environment: n1-maintenance
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      N1_BASE_BRANCH: ${{ github.event.repository.default_branch }}
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Regenerate from committed evidence
+        run: |
+          python3 scripts/build_tokens.py
+          python3 scripts/build_components.py
+          python3 scripts/package_n1_skill.py
+          python3 scripts/validate_repository.py
+      - name: Open draft pull request for generated files only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- tokens/*.json components/ sources/figma/manifest.json sources/figma/token-evidence/coverage.json audit/component-inventory.md audit/component-documentation-coverage.md skills/n1-design-system/references/system/ skills/n1-design-system/references/snapshot-manifest.json
+          if git diff --cached --quiet; then
+            echo 'No generated changes; no branch or PR created.'
+            exit 0
+          fi
+          branch="automation/n1-generated-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git switch -c "$branch"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh generated N1 snapshot from committed evidence'
+          gh auth setup-git
+          git push origin "HEAD:refs/heads/$branch"
+          mkdir -p .local
+          cat > .local/update-pr.md <<'BODY'
+          Regenerates derived files from evidence already committed to the default branch. No live Figma query or authored guidance generation is performed.
+
+          Offline validation passed before commit. Design and engineering review are required before merging. Review evidence dates, coverage limits, removals, approval labels and bundled provenance. This is not a release or accessibility certification.
+
+          A maintainer must run the validation workflow on this branch and inspect its result before merging; GITHUB_TOKEN-created PRs may not trigger pull_request workflows.
+          BODY
+          gh pr create --draft --base "$N1_BASE_BRANCH" --head "$branch" --title 'Refresh generated N1 design-system snapshot' --body-file .local/update-pr.md

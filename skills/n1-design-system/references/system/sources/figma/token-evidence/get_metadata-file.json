@@ -1,0 +1,18 @@
+{
+  "observedAt": "2026-10-15T03:25:48.368973+00:00",
+  "tool": "get_metadata",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "No nodeId was provided. Listing the top-level pages of the document. Call get_metadata again with one of the page ids below (or any node id underneath) to get the XML metadata for that subtree.\n\nTop-level pages of the document:\n- 45:58183: Cover\n- 915:56433: 🎱  Icons\n- 2944:1766810: 🏞️  GRAPHICS\n- 67:137263: _Local"
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "dcd049c0-7ff2-4fc2-abc4-3179a320f5b4"
+    }
+  }
+}

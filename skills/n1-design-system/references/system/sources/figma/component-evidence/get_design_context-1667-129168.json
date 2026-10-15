@@ -1,0 +1,47 @@
+{
+  "observedAt": "2026-10-15T03:34:24.972701+00:00",
+  "tool": "get_design_context",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "1667:129168",
+    "clientLanguages": "unknown",
+    "clientFrameworks": "unknown",
+    "skillNames": "resource:figma-design-to-code"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "const assetPathPrefix = \"https://www.figma.com/api/mcp/asset/1f3c6e00-87db-49b7-b33e-3d5763e85c5d\";\nconst imgStartIcon = `${assetPathPrefix}/498c5.svg`;\nconst imgEndIcon = `${assetPathPrefix}/b0afd.svg`;\n\ntype ButtonProps = {\n  className?: string;\n  color?: \"Inherit\";\n  endIcon?: React.ReactNode | null;\n  endIcon1?: boolean;\n  label?: boolean;\n  size?: \"S\";\n  startIcon?: React.ReactNode | null;\n  startIcon1?: boolean;\n  state?: \"Enabled\";\n  variant?: \"Contained\";\n};\n\nfunction Button({ className, color = \"Inherit\", endIcon = null, endIcon1 = false, label = true, size = \"S\", startIcon = null, startIcon1 = false, state = \"Enabled\", variant = \"Contained\" }: ButtonProps) {\n  return (\n    <div className={className || \"bg-[var(--global\\\\/inherit\\\\/bg,#212b36)] content-stretch flex gap-[var(--button\\\\/spacing,8px)] h-[var(--button\\\\/\\\\[small\\\\]--height,30px)] items-center justify-center min-w-[64px] px-[var(--button\\\\/\\\\[small\\\\]--px,12px)] relative rounded-[var(--button\\\\/radius,8px)]\"} data-node-id=\"1667:129168\">\n      {startIcon1 &&\n        (startIcon || (\n          <div className=\"relative shrink-0 size-[18px]\" data-node-id=\"1667:143014\" data-name=\"start icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgStartIcon} />\n          </div>\n        ))}\n      {label && (\n        <p className=\"[word-break:break-word] font-['Segoe_UI:Bold'] leading-[22px] not-italic relative shrink-0 text-[12px] text-[color:var(--global\\/inherit\\/color,white)] whitespace-nowrap\" data-node-id=\"1667:129170\">\n          Action\n        </p>\n      )}\n      {endIcon1 &&\n        (endIcon || (\n          <div className=\"relative shrink-0 size-[18px]\" data-node-id=\"1667:143017\" data-name=\"end icon\">\n            <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgEndIcon} />\n          </div>\n        ))}\n    </div>\n  );\n}"
+      },
+      {
+        "type": "text",
+        "text": "SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.\n1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens\n2. Convert React syntax to the target framework/library\n3. Transform all Tailwind classes to the target styling system while preserving exact visual design\n4. Follow the project's existing patterns and conventions\nDO NOT install any Tailwind as a dependency unless the user instructs you to do so.\n"
+      },
+      {
+        "type": "text",
+        "text": "Node ids have been added to the code as data attributes, e.g. `data-node-id=\"1:2\"`."
+      },
+      {
+        "type": "text",
+        "text": "These styles are contained in the design: components/button-small: Font(family: \"Segoe UI\", style: Bold, size: 12, weight: 700, lineHeight: 22, letterSpacing: 0)."
+      },
+      {
+        "type": "text",
+        "text": "Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.\n\n## Button\n**Node ID:** 1667:129167\n\n**Documentation:**\n- [https://mui.com/material-ui/react-button/](https://mui.com/material-ui/react-button/)"
+      },
+      {
+        "type": "text",
+        "text": "The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources."
+      },
+      {
+        "type": "image",
+        "data": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAeCAYAAACc7RhZAAAACXBIWXMAAAPoAAAD6AG1e1JrAAADkklEQVRYR+WZX0hTURzHv7v20EMbvQTu3r0Euc31UjadPWR/rAUZmCimoeJUVCzahEzBFMF6CB9yQSvTtFLMQlNBH3RquSC1P9ZDmBr0kumLvmy9L36/29YWSTDRWvcD455zfufc7ffn/Pmdqfx+vx8hTL+excjEJMbGPfi6vIz/gXiDHiaTAY7yEkhSbJhMFTCA1/sNza67uN/1GP8ztoJzsJcXQ6PZwXU2ACmfYyvH/MInKAGTQY/ujttsBIEayPNKUZ6YW1iE8849Lqu+LK34U06mQ4l0t7sQo9quaVCS90NRq9WI2blL17C6tgYlsrq6BtXuvUlh26DSEKBwBCgcAQpHwAYxGfXITE/DiWMpiJSma1cw1NcJjUaNrWYbNkhdjQMW8wEu59oqMPP67Z+GwJaXA416B5y327huSTRz3R9tEaCTtKz83Lx8jkg27/9tP0nUBr2rE7Woq6mEJUk2GpFiPYN9B4/D5/UF26h/6Ljf8Sf5phsg+YfnyZNenw+2gpwweVFeDt5PjeHF6ADevxyDyWiAZ3RAHpuYgM8fZiBJIrdROUB9jYP7B8bVVTuCxqN+w72deNThYrlnpJ+n4V8xQGH+WVbcPf4cfYND0KjVsCTKRrEePYwrNZUsL7tYjUu1jRzijddvBM/jVbWNLA8lK/00CvNy4Z6Y5HHuZx7Y8nN5nQkQb9SjvfMJOrp6+DtpSm25AXSSli2/tLwS9uOsR+XF0GKRp0NV7VW4J57j6eAQPs4vwD0+ye2UgZLRQsOeyMw4xc9m1z0e1/7gkfzeY0fC7ixI1vGwh+uSpMWWL4L2iuJgatl0rT7YnpmRBuedNvYMEekc/TUyNgsBEWIxm/mZllWAQ9YM/sy8mWXF6QZm6tU7ltdV23mLpCjRiWJQMZMxjtt/NdD0q1l+1l+uZLnjfAnXR5/JkfNPGMBiTuApQKFIYU1XZ/Tp7R9mub2ihEPe6WplpVtuNnGUUKh6fd+Cc5faKSMLxelqY/mJ1BSW03xvvtWKvoEhbAaqzU6GSEFSljzvCwlrSRT5ud6943rjos4A/zoCFI4gipFvIdFOvEEPwbqBJCbaMRnjIFhTfx4wlIbjQikEOpPb8rOhNArzsiFpY+VF0F5RClN85AlFtGE07IHjfBmX2QC039IdeVH+WSjB8z33W/j+AaH/DQag5Oamq5Vz/Ln5xfXeE1XQaZQWezpdBrLVAN8BBVdaYBlDbBMAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAABJRU5ErkJggg==",
+        "mimeType": "image/png"
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "5b64a847-4ae5-4cb7-bc7f-83b0c15a0625"
+    }
+  }
+}

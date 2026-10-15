@@ -1,0 +1,19 @@
+{
+  "observedAt": "2026-10-15T03:41:18.857403+00:00",
+  "tool": "get_variable_defs",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "882:231025"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"text/disabled\":\"#919eab\",\"desktop/body2\":\"Font(family: \\\"Segoe UI\\\", style: Regular, size: 14, weight: 400, lineHeight: 22, letterSpacing: 0)\",\"text/secondary\":\"#637381\",\"textfield/[select-arrow]--size\":\"20\",\"textfield/[select-arrow]--mr\":\"10\",\"textfield/[outlined]--px\":\"14\",\"textfield/[outlined][medium]--height\":\"54\",\"textfield/[outlined]--radius\":\"8\",\"components/textfield/outline\":\"#c4cdd5\",\"textfield/[start-adornment]--mr\":\"8\",\"action/active\":\"#637381\",\"icon button/[small]--size\":\"36\",\"icon button/radius\":\"500\",\"text/primary\":\"#161c24\",\"desktop/subtitle2\":\"Font(family: \\\"Segoe UI\\\", style: Semibold, size: 14, weight: 600, lineHeight: 22, letterSpacing: 0)\",\"global/inherit/color\":\"#ffffff\",\"components/chip-text-sm\":\"Font(family: \\\"Segoe UI\\\", style: Regular, size: 12, weight: 400, lineHeight: 18, letterSpacing: 0)\",\"chip/[small]--spacing\":\"5\",\"System/Grey/cf-color-black\":\"#000000\",\"chip/close-icon\":\"20\",\"chip/spacing\":\"-2\",\"chip/[small]--px\":\"3\",\"chip/[small]--height\":\"24\",\"chip/radius\":\"8\",\"global/inherit/bg\":\"#212b36\",\"components/paper/outlined\":\"#919eab29\",\"error/main\":\"#d82934\",\"components/button-medium\":\"Font(family: \\\"Segoe UI\\\", style: Bold, size: 14, weight: 700, lineHeight: 24, letterSpacing: 0)\",\"button/spacing\":\"8\",\"button/[text][medium]--px\":\"8\",\"button/[medium]--height\":\"36\",\"button/radius\":\"8\",\"button/min-width\":\"64\",\"spacing-1,5\":\"12\",\"spacing-2,5\":\"20\",\"spacing-2\":\"16\",\"background/paper\":\"#ffffff\",\"checkbox/[small]--icon\":\"20\",\"checkbox/p\":\"8\",\"radius-50%\":\"500\",\"spacing-1\":\"8\",\"components/table-head\":\"Font(family: \\\"Segoe UI\\\", style: Semibold, size: 14, weight: 600, lineHeight: 24, letterSpacing: 0)\",\"spacing-0,5\":\"4\",\"background/thead\":\"#dfe2e8\",\"success/main\":\"#0f913b\",\"success/24%\":\"#22c55e3d\",\"desktop/caption\":\"Font(family: \\\"Segoe UI\\\", style: Regular, size: 12, weight: 400, lineHeight: 18, letterSpacing: 0)\",\"System/Blue/cf-color-blue-900\":\"#0a3c73\",\"components/label-text\":\"Font(family: \\\"Segoe UI\\\", style: Semibold, size: 14, weight: 600, lineHeight: 20, letterSpacing: 0)\",\"label/spacing\":\"6\",\"label/px\":\"6\",\"label/height\":\"24\",\"label/radius\":\"6\",\"label/min-width\":\"24\",\"info/16%\":\"#37c5f029\",\"border/divider\":\"#919eab33\",\"warning/main\":\"#e88310\",\"warning/24%\":\"#ffab003d\",\"error/24%\":\"#ff56303d\",\"System/Grey/cf-color-grey-700\":\"#454f5b\",\"grey/16%\":\"#919eab29\",\"white/main\":\"#ffffff\",\"grey/48%\":\"#919eab7a\",\"switch/[medium]--spacing\":\"9\",\"action/disabled\":\"#919eab\",\"card/radius\":\"16\",\"shadow/card\":\"Effect(type: DROP_SHADOW, color: #919EAB33, offset: (0, 0), radius: 16, spread: 0)\",\"grey/600\":\"#637381\",\"[layout]/container/[mobile]--width\":\"343\",\"_local-docs/[components]--p\":\"40\",\"_local-docs/[components]--radius\":\"24\",\"_local-docs/[components]--color\":\"#637381\"}"
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "ddf62b7b-f036-4d45-89cc-080e42ed4d87"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "observedAt": "2026-10-15T03:26:17.647818+00:00",
+  "tool": "get_variable_defs",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "1657:123777"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"primary/darker\":\"#161c24\",\"grey/8%\":\"#919eab14\",\"grey/900\":\"#161c24\",\"Body-Small\":\"Font(family: \\\"Chakra Petch\\\", style: Regular, size: 14, weight: 400, lineHeight: 20, letterSpacing: 0.3499999940395355)\",\"_local-docs/[layout][content]--bg\":\"#f9fafb\"}"
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "900f4887-e3d6-46f1-8493-1c02ead32dc0"
+    }
+  }
+}

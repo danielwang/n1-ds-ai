@@ -1,0 +1,19 @@
+{
+  "observedAt": "2026-10-15T03:26:41.980059+00:00",
+  "tool": "get_variable_defs",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "45:58184"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"action/disabled-bg\":\"#ecf0f3\",\"main <-> light/primary\":\"#637381\",\"main <-> light/info\":\"#44adda\",\"dark <-> light/info\":\"#1b76ac\",\"Status Color/Warning\":\"#DA7B11\",\"main <-> light/secondary\":\"#44adda\",\"grey/500\":\"#919eab\",\"Body-Small\":\"Font(family: \\\"Chakra Petch\\\", style: Regular, size: 14, weight: 400, lineHeight: 20, letterSpacing: 0.3499999940395355)\",\"desktop/subtitle1\":\"Font(family: \\\"Segoe UI\\\", style: Semibold, size: 16, weight: 600, lineHeight: 24, letterSpacing: 0)\",\"radius-1\":\"8\",\"Brand/blue dark\":\"#000041\"}"
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "a569c1e1-4779-414e-a432-62ab9217659d"
+    }
+  }
+}

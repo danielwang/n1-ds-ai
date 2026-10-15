@@ -1,0 +1,19 @@
+{
+  "observedAt": "2026-10-15T03:33:54.517666+00:00",
+  "tool": "get_variable_defs",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "545:149318"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"white/main\":\"#ffffff\",\"icon button/[extra small]--icon\":\"18\",\"icon button/[extra small]--size\":\"28\",\"icon button/radius\":\"500\",\"Brand/blue dark\":\"#000041\",\"shadow/z24\":\"Effect(type: DROP_SHADOW, color: #919EAB29, offset: (0, 24), radius: 48, spread: 0)\",\"Brand/Client/color/2\":\"#EFC07B\",\"radius-0,5\":\"4\",\"desktop/body1\":\"Font(family: \\\"Segoe UI\\\", style: Regular, size: 16, weight: 400, lineHeight: 24, letterSpacing: 0)\",\"radius-1,5\":\"12\",\"System/Grey/cf-color-grey-300\":\"#dfe2e8\",\"components/nav-subheader\":\"Font(family: \\\"Segoe UI\\\", style: Bold, size: 12, weight: 700, lineHeight: 18, letterSpacing: 0)\",\"components/nav-item-default\":\"Font(family: \\\"Segoe UI\\\", style: Regular, size: 14, weight: 400, lineHeight: 22, letterSpacing: 0)\",\"System/Grey/cf-color-grey-100\":\"#f9fafb\",\"System/Grey/cf-color-white\":\"#ffffff\",\"components/nav-item-active\":\"Font(family: \\\"Segoe UI\\\", style: Semibold, size: 14, weight: 600, lineHeight: 22, letterSpacing: 0)\",\"System/Grey/cf-color-black\":\"#000000\",\"[layout]/nav/[vertical]--witdh\":\"280\",\"border/divider\":\"#919eab33\",\"text/disabled\":\"#919eab\",\"spacing-2\":\"16\",\"components/navitem/label\":\"#ffffff\",\"[layout]/nav-vertical/[item]--spacing\":\"16\",\"spacing-1,5\":\"12\",\"spacing-1\":\"8\",\"radius-1\":\"8\",\"[layout]/nav/[vertical][item root]--min-height\":\"44\",\"text/white\":\"#ffffff\",\"other/mask\":\"#ffffff00\",\"warning/contrast-text\":\"#212b36\",\"components/label-text\":\"Font(family: \\\"Segoe UI\\\", style: Semibold, size: 14, weight: 600, lineHeight: 20, letterSpacing: 0)\",\"label/spacing\":\"6\",\"label/px\":\"6\",\"label/height\":\"24\",\"label/radius\":\"6\",\"label/min-width\":\"24\",\"warning/main\":\"#e88310\",\"grey/500\":\"#919eab\",\"[layout]/nav/[vertical]--spacing\":\"4\",\"Brand/Client/color/1\":\"#16213E\",\"error/contrast-text\":\"#ffffff\",\"badge/[standard]--px\":\"6\",\"radius-50%\":\"500\",\"error/main\":\"#d82934\",\"System/Grey/cf-color-grey-500\":\"#919eab\",\"components/navitem/icon\":\"#f9fafb\",\"grey/200\":\"#ecf0f3\",\"success/main\":\"#0f913b\",\"System/Green/cf-color-green-100\":\"#cff9cc\"}"
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "d47ec68a-ba0d-4fa3-9708-7dabfbaeaac8"
+    }
+  }
+}

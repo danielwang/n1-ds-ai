@@ -1,0 +1,197 @@
+{
+  "scenario": "Responsive N1 Agent Settings",
+  "implementationStatus": "blocked-no-existing-frontend-project-or-component-library",
+  "uiGenerated": false,
+  "accessibilityTarget": "WCAG 2.2 AA, explicitly requested for this task",
+  "frontendManifests": [],
+  "selectionCases": 12,
+  "selectionResults": [
+    {
+      "status": "verified-source-member",
+      "component": "Button",
+      "componentNodeId": "1667:129167",
+      "memberNodeId": "1667:129888",
+      "memberName": "Variant=Contained, Color=Inherit, Size=M, State=Enabled",
+      "variants": {
+        "Variant": "Contained",
+        "Color": "Inherit",
+        "Size": "M",
+        "State": "Enabled"
+      },
+      "scope": "Figma configuration only; not runtime API, approval, or accessibility"
+    },
+    {
+      "status": "verified-source-member",
+      "component": "TextField",
+      "componentNodeId": "194:62777",
+      "memberNodeId": "1670:171141",
+      "memberName": "Size=LG, State=Enabled, 👁️ Value=True",
+      "variants": {
+        "Size": "LG",
+        "State": "Enabled",
+        "👁️ Value": "True"
+      },
+      "scope": "Figma configuration only; not runtime API, approval, or accessibility"
+    },
+    {
+      "status": "verified-source-member",
+      "component": "TextField",
+      "componentNodeId": "194:62777",
+      "memberNodeId": "1670:171163",
+      "memberName": "Size=LG, State=Focused, 👁️ Value=True",
+      "variants": {
+        "Size": "LG",
+        "State": "Focused",
+        "👁️ Value": "True"
+      },
+      "scope": "Figma configuration only; not runtime API, approval, or accessibility"
+    },
+    {
+      "status": "verified-source-member",
+      "component": "Card",
+      "componentNodeId": "1026:27381",
+      "memberNodeId": "141:26396",
+      "memberName": "Type=Container, Title=No",
+      "variants": {
+        "Type": "Container",
+        "Title": "No"
+      },
+      "scope": "Figma configuration only; not runtime API, approval, or accessibility"
+    },
+    {
+      "status": "unsupported",
+      "reason": "Unknown variant property or option",
+      "property": "State",
+      "value": "Focused"
+    },
+    {
+      "status": "unsupported",
+      "reason": "Options exist separately but no actual member matches the resolved combination",
+      "variants": {
+        "Variant": "Contained",
+        "Color": "Primary",
+        "Size": "M",
+        "State": "Disabled"
+      }
+    },
+    {
+      "status": "unsupported",
+      "reason": "Unknown variant property or option",
+      "property": "👁️ Value",
+      "value": true
+    },
+    {
+      "status": "unsupported",
+      "reason": "Unknown variant property or option",
+      "property": "size",
+      "value": "LG"
+    },
+    {
+      "status": "unsupported",
+      "reason": "Original name/node ID is missing or ambiguous"
+    },
+    {
+      "status": "unsupported",
+      "reason": "Unknown variant property or option",
+      "property": "info icon",
+      "value": "True"
+    },
+    {
+      "status": "unsupported",
+      "reason": "variants must be a JSON object"
+    },
+    {
+      "status": "verified-source-member",
+      "component": "TextField",
+      "componentNodeId": "194:62777",
+      "memberNodeId": "196:62341",
+      "memberName": "Size=LG, State=Enabled, 👁️ Value=False",
+      "variants": {
+        "Size": "LG",
+        "State": "Enabled",
+        "👁️ Value": "False"
+      },
+      "scope": "Figma configuration only; not runtime API, approval, or accessibility"
+    }
+  ],
+  "sourceComparisons": [
+    {
+      "nodeId": "1667:129167",
+      "status": "member-identities-names-dimensions-match",
+      "members": 135,
+      "liveEvidence": "audit/skill-test/figma/skill-test-button.json"
+    },
+    {
+      "nodeId": "194:62777",
+      "status": "member-identities-names-dimensions-match",
+      "members": 24,
+      "liveEvidence": "audit/skill-test/figma/get_metadata-194-62777.json"
+    },
+    {
+      "nodeId": "1026:27381",
+      "status": "member-identities-names-dimensions-match",
+      "members": 4,
+      "liveEvidence": "audit/skill-test/figma/skill-test-card.json"
+    }
+  ],
+  "textfieldVariableComparison": "matches-retained-snapshot",
+  "contrastChecks": [
+    {
+      "foregroundToken": "text/primary",
+      "foregroundValue": "#161c24",
+      "backgroundToken": "background/paper",
+      "backgroundValue": "#ffffff",
+      "ratio": 17.13319047222896,
+      "context": "normal-text",
+      "threshold": 4.5,
+      "numericThresholdMet": true,
+      "scope": "source-colour arithmetic only; no rendered interface exists"
+    },
+    {
+      "foregroundToken": "text/secondary",
+      "foregroundValue": "#637381",
+      "backgroundToken": "background/paper",
+      "backgroundValue": "#ffffff",
+      "ratio": 4.8839263895643485,
+      "context": "normal-text",
+      "threshold": 4.5,
+      "numericThresholdMet": true,
+      "scope": "source-colour arithmetic only; no rendered interface exists"
+    },
+    {
+      "foregroundToken": "global/inherit/color",
+      "foregroundValue": "#ffffff",
+      "backgroundToken": "global/inherit/bg",
+      "backgroundValue": "#212b36",
+      "ratio": 14.349302740067916,
+      "context": "normal-text",
+      "threshold": 4.5,
+      "numericThresholdMet": true,
+      "scope": "source-colour arithmetic only; no rendered interface exists"
+    },
+    {
+      "foregroundToken": "text/disabled",
+      "foregroundValue": "#919eab",
+      "backgroundToken": "background/paper",
+      "backgroundValue": "#ffffff",
+      "ratio": 2.7333972253072267,
+      "context": "enabled-field-label-source-observation",
+      "threshold": 4.5,
+      "numericThresholdMet": false,
+      "scope": "source-colour arithmetic only; no rendered interface exists"
+    },
+    {
+      "foregroundToken": "components/textfield/outline",
+      "foregroundValue": "#c4cdd5",
+      "backgroundToken": "background/paper",
+      "backgroundValue": "#ffffff",
+      "ratio": 1.6103676533550484,
+      "context": "boundary-if-essential",
+      "threshold": 3.0,
+      "numericThresholdMet": false,
+      "scope": "source-colour arithmetic only; no rendered interface exists"
+    }
+  ],
+  "uiChecksRun": [],
+  "pendingInput": "Existing frontend project path/repository and executable component package"
+}

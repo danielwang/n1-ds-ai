@@ -1,0 +1,223 @@
+{
+  "definitionAttempts": [
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "0:10784",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:26:48.270194+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-0-10784.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=0-10784",
+      "status": "returned-definitions"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "1006:40021",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:27:38.080264+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-1006-40021.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=1006-40021",
+      "status": "returned-definitions"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "1657:123777",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:26:17.647818+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-1657-123777.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=1657-123777",
+      "status": "returned-definitions"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "189:123170",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:26:49.630170+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-189-123170.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=189-123170",
+      "status": "returned-definitions"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "265:15467",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:27:36.322485+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-265-15467.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=265-15467",
+      "status": "empty"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "3406:36727",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:27:32.310450+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-3406-36727.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=3406-36727",
+      "status": "returned-definitions"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "4251:18861",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:28:28.172562+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-4251-18861.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=4251-18861",
+      "status": "returned-definitions"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "45:58184",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:26:41.980059+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-45-58184.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=45-58184",
+      "status": "returned-definitions"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "4902:19436",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:28:29.477054+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-4902-19436.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=4902-19436",
+      "status": "returned-definitions"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "52:83177",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:26:45.169270+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-52-83177.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=52-83177",
+      "status": "returned-definitions"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "67:138135",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:27:34.946083+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-67-138135.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=67-138135",
+      "status": "empty"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "67:138361",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:26:46.737066+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-67-138361.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=67-138361",
+      "status": "returned-definitions"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "6738:8763",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:27:33.753869+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-6738-8763.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=6738-8763",
+      "status": "empty"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "6849:1347",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:26:51.187487+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-6849-1347.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=6849-1347",
+      "status": "returned-definitions"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "6919:16976",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:28:31.041409+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-6919-16976.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=6919-16976",
+      "status": "returned-definitions"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "90:70905",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:26:43.399124+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-90-70905.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=90-70905",
+      "status": "returned-definitions"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "915:56433",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:25:50.151038+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-915-56433.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=915-56433",
+      "status": "error"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "924:72686",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:26:18.765665+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-924-72686.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=924-72686",
+      "status": "returned-definitions"
+    },
+    {
+      "fileKey": "01imXcjljmBfqXhqFmv4kz",
+      "nodeId": "991:131354",
+      "tool": "get_variable_defs",
+      "observedAt": "2026-10-15T03:26:03.327801+00:00",
+      "evidence": "sources/figma/token-evidence/get_variable_defs-991-131354.json",
+      "url": "https://www.figma.com/design/01imXcjljmBfqXhqFmv4kz/nebulaONE.design?node-id=991-131354",
+      "status": "returned-definitions"
+    }
+  ],
+  "summary": {
+    "colors": {
+      "exportedTokenCount": 45,
+      "observedDefinitionCount": 45,
+      "metadataOnlyDefinitionCount": 0
+    },
+    "typography": {
+      "exportedTokenCount": 0,
+      "observedDefinitionCount": 2,
+      "metadataOnlyDefinitionCount": 0
+    },
+    "spacing": {
+      "exportedTokenCount": 0,
+      "observedDefinitionCount": 0,
+      "metadataOnlyDefinitionCount": 10
+    },
+    "sizing": {
+      "exportedTokenCount": 0,
+      "observedDefinitionCount": 0,
+      "metadataOnlyDefinitionCount": 0
+    },
+    "radius": {
+      "exportedTokenCount": 0,
+      "observedDefinitionCount": 1,
+      "metadataOnlyDefinitionCount": 10
+    },
+    "effects": {
+      "exportedTokenCount": 0,
+      "observedDefinitionCount": 0,
+      "metadataOnlyDefinitionCount": 12
+    },
+    "borders": {
+      "exportedTokenCount": 0,
+      "observedDefinitionCount": 0,
+      "metadataOnlyDefinitionCount": 4
+    },
+    "opacity": {
+      "exportedTokenCount": 0,
+      "observedDefinitionCount": 0,
+      "metadataOnlyDefinitionCount": 0
+    },
+    "other": {
+      "exportedTokenCount": 0,
+      "observedDefinitionCount": 0,
+      "metadataOnlyDefinitionCount": 0
+    }
+  },
+  "completeLibraryExport": false
+}

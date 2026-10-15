@@ -1,0 +1,19 @@
+{
+  "observedAt": "2026-10-15T03:26:18.765665+00:00",
+  "tool": "get_variable_defs",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "924:72686"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"grey/800\":\"#212b36\",\"grey/600\":\"#637381\",\"secondary/main\":\"#44adda\"}"
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "c1ff8a5a-1ccc-45ae-bc57-ee304fdba02b"
+    }
+  }
+}

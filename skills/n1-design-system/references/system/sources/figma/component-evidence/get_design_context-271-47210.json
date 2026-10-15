@@ -1,0 +1,35 @@
+{
+  "observedAt": "2026-10-15T03:40:10.264682+00:00",
+  "tool": "get_design_context",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "271:47210",
+    "clientLanguages": "unknown",
+    "clientFrameworks": "unknown",
+    "skillNames": "resource:figma-design-to-code",
+    "excludeScreenshot": true
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "const assetPathPrefix = \"https://www.figma.com/api/mcp/asset/5d032897-ce3f-4f19-a2e4-ab3c534af3d8\";\nconst imgImage3 = `${assetPathPrefix}/ce2d0.png`;\n\ntype MsLoginButtonProps = {\n  className?: string;\n  color?: \"white\";\n};\n\nfunction MsLoginButton({ className, color = \"white\" }: MsLoginButtonProps) {\n  return (\n    <div className={className || \"h-[41px] relative rounded-[12px] w-[215px]\"} data-node-id=\"271:47210\">\n      <div className=\"absolute inset-0 rounded-[8px]\" data-node-id=\"267:43942\" data-name=\"image 3\">\n        <img alt=\"\" className=\"absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full\" src={imgImage3} />\n      </div>\n    </div>\n  );\n}"
+      },
+      {
+        "type": "text",
+        "text": "SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.\n1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens\n2. Convert React syntax to the target framework/library\n3. Transform all Tailwind classes to the target styling system while preserving exact visual design\n4. Follow the project's existing patterns and conventions\nDO NOT install any Tailwind as a dependency unless the user instructs you to do so.\n"
+      },
+      {
+        "type": "text",
+        "text": "Node ids have been added to the code as data attributes, e.g. `data-node-id=\"1:2\"`."
+      },
+      {
+        "type": "text",
+        "text": "The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources."
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "bf864257-2f54-4984-b8a7-9add989e3087"
+    }
+  }
+}

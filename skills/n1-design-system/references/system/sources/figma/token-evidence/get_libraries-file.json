@@ -1,0 +1,22 @@
+{
+  "observedAt": "2026-10-15T03:26:03.878676+00:00",
+  "tool": "get_libraries",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"libraries_added_to_file\": [\n    {\n      \"name\": \"Solar Icons\",\n      \"libraryKey\": \"lk-4d35d498e7591e61ba980f1f754f70fb8bdc955fcc236c5960f2bde59343d5d9e353415cba821ac5235624a296709ba7eb0694094edea876bf8968d6db64d9f0\",\n      \"source\": \"team\"\n    },\n    {\n      \"name\": \"📖 nebulaONE.design\",\n      \"libraryKey\": \"lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59\",\n      \"source\": \"team\"\n    },\n    {\n      \"name\": \"Design annotation kit\",\n      \"libraryKey\": \"lk-22c097413bf0c40dfd40c2f4dee1e1d8b74da730be918b241a52e8ccb079afd01efbc37c85e04402196cb33b5c84af7baf9649307363836e05a909235fcbc032\",\n      \"source\": \"team\"\n    }\n  ],\n  \"libraries_available_to_add\": [\n    {\n      \"name\": \"Material 3 Design Kit\",\n      \"libraryKey\": \"lk-5a31d104cabc6a74d4edf6425e7bc6575e9c0f18cda7efb746193aef4d915b077d115c985e6cf49d36d97d455a17d5127a2cbbfbc618b8a70a38669dccb61462\",\n      \"source\": \"community\"\n    },\n    {\n      \"name\": \"Simple Design System\",\n      \"libraryKey\": \"lk-e0ffcff14368019c4f30f45401cd233d6cbc5f869988484192d04cbbef801fb0064ef68feaa8a2775ee4f1f05d9a4af1a6d07b2658eac4aefb7afb18728c4066\",\n      \"source\": \"community\"\n    },\n    {\n      \"name\": \"iOS and iPadOS 26\",\n      \"libraryKey\": \"lk-a5b98decf0fb24381005421a2986b813149fcf20f37a1169316d44e2802c483494c6fc98ab8e083540a73bd5e45cf892a38123ee61981aee097d5f4eb8487a17\",\n      \"source\": \"community\"\n    },\n    {\n      \"name\": \"watchOS 26\",\n      \"libraryKey\": \"lk-32bda072ec15e732e76d56aa8bd25314051f296f8519a8d868031b46eaabb5ade1290829d0d7deca926b5388f760e9e94aa76d56bfe2ead33d78adeeeb7d15fb\",\n      \"source\": \"community\"\n    },\n    {\n      \"name\": \"visionOS 26\",\n      \"libraryKey\": \"lk-4f44e69da5f723deffc1c2461604f793251559fb3fb0f1f6af7c4fffaa12c05a33c40283401af5f2edf0db0639d516ccef9b73ae6aadff7e6588df60cbd36dd4\",\n      \"source\": \"community\"\n    },\n    {\n      \"name\": \"macOS 26\",\n      \"libraryKey\": \"lk-52492a50a550123b626cdfcd7639929209dc66307681f3f8cf9937770a714f2d76ade248aff2d8a0e42da17e343a440cebc0a04f1800ad34ae6d86e1a7f7aa9a\",\n      \"source\": \"community\"\n    },\n    {\n      \"name\": \"iOS and iPadOS 27\",\n      \"libraryKey\": \"lk-3167e7e1386e96621fc3b20782e2ec1b199754eeceff2ef04bf90d28a124be6414b67982dc8fb71ea1896b0310c316f54d7b9f0ac598cb3111748728c039a567\",\n      \"source\": \"community\"\n    },\n    {\n      \"name\": \"macOS 27\",\n      \"libraryKey\": \"lk-9b6046629e11db2bbe15e5a3fa0443ecd557a34812bc69997a2b8598852d86fb806d4036ca6c146521c7e1cf898a1e3d46dda55a15bf1f86579794b29480aa80\",\n      \"source\": \"community\"\n    },\n    {\n      \"name\": \"Cloudforce.design\",\n      \"libraryKey\": \"lk-c71ec411dfde908a6c45106cb6275e61a3a9bc6db662acddef890057083ff33bd032847d3fed817772a118e592b9e5d74badd8b67fb9df4d704c5b7762a20510\",\n      \"source\": \"organization\"\n    }\n  ],\n  \"libraries_available_to_add_next_offset\": null\n}"
+      },
+      {
+        "type": "text",
+        "text": "The above JSON contains two lists: libraries_added_to_file (currently subscribed) and libraries_available_to_add (community UI kits and org libraries). Use the libraryKey values to scope searches with search_design_system by passing them as includeLibraryKeys."
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "02ef9308-134a-48e9-b6f5-d0e3d6e9ff97"
+    }
+  }
+}

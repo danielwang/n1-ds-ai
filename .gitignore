@@ -1,0 +1,16 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+.local/
+__pycache__/
+*.py[cod]
+
+/skill.zip
+/skill.zip.sha256
+.venv/
+.agents/skills/
+*.pem
+*.key

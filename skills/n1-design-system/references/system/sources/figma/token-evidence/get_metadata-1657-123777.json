@@ -1,0 +1,23 @@
+{
+  "observedAt": "2026-10-15T03:28:00.810964+00:00",
+  "tool": "get_metadata",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "1657:123777"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "<symbol id=\"1657:123777\" name=\"_docs/Layout\" x=\"1532\" y=\"555\" width=\"3600\" height=\"4283\">\n  <instance id=\"143:43729\" name=\"_docs/Header\" x=\"0\" y=\"0\" width=\"3600\" height=\"141\" />\n  <instance id=\"189:111898\" name=\"_watermark\" x=\"3177\" y=\"4167\" width=\"326\" height=\"48\" />\n</symbol>"
+      },
+      {
+        "type": "text",
+        "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "1c0a6915-cdd0-4d31-b85d-846b6dbcede7"
+    }
+  }
+}

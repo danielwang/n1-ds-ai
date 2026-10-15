@@ -1,0 +1,213 @@
+{
+  "$extensions": {
+    "design.nebulaone.figma": {
+      "formatVersion": 1,
+      "status": "partial",
+      "category": "spacing",
+      "sourceFileKey": "01imXcjljmBfqXhqFmv4kz",
+      "selectedNodeId": "915:56433",
+      "scope": "sampled-node-definitions-and-scoped-library-search",
+      "completeLibraryExport": false,
+      "collections": null,
+      "modes": null,
+      "aliasGraph": null,
+      "primitiveSemanticClassification": "unknown",
+      "missingInformation": [
+        "complete-library-enumeration",
+        "mode-names-and-ids",
+        "values-by-mode",
+        "alias-targets",
+        "variable-ids",
+        "definition-level-collection-membership",
+        "primitive-semantic-relationships"
+      ],
+      "discoveredDefinitions": [
+        {
+          "name": "spacing-3",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "cfbf058222f5b6094381a2d457c380723524a5e1",
+          "key": "668c8137868d05be29532e411c734ee79ab4e01e",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Spacing",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Spacing/float/spacing-3",
+          "tool": "search_design_system",
+          "query": "spacing",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "spacing-5",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "cfbf058222f5b6094381a2d457c380723524a5e1",
+          "key": "5173e8f2140a7bebd8b9977dc055c9b951647a3f",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Spacing",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Spacing/float/spacing-5",
+          "tool": "search_design_system",
+          "query": "spacing",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "spacing-4",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "cfbf058222f5b6094381a2d457c380723524a5e1",
+          "key": "13e3244044fcd019789485b7ba23dcc1b93be445",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Spacing",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Spacing/float/spacing-4",
+          "tool": "search_design_system",
+          "query": "spacing",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "spacing-2",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "cfbf058222f5b6094381a2d457c380723524a5e1",
+          "key": "3c1c04fbecf8205f530bbd286bbeb93b9c01b086",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Spacing",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Spacing/float/spacing-2",
+          "tool": "search_design_system",
+          "query": "spacing",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "spacing-1",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "cfbf058222f5b6094381a2d457c380723524a5e1",
+          "key": "845eaa865f8de90441d904e931a46229ed4df8f1",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Spacing",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Spacing/float/spacing-1",
+          "tool": "search_design_system",
+          "query": "spacing",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "spacing-6",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "cfbf058222f5b6094381a2d457c380723524a5e1",
+          "key": "8306ed91dc0401355fef5f5b8201c527ec4c75ff",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Spacing",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Spacing/float/spacing-6",
+          "tool": "search_design_system",
+          "query": "spacing",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "spacing-7",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "cfbf058222f5b6094381a2d457c380723524a5e1",
+          "key": "3b0261e0ca8e8eab62be8ba3f4955528bc035582",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Spacing",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Spacing/float/spacing-7",
+          "tool": "search_design_system",
+          "query": "spacing",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "spacing-0,5",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "cfbf058222f5b6094381a2d457c380723524a5e1",
+          "key": "e62decacb47d9c26bfcd0b23c701a3128e0e4b63",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Spacing",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Spacing/float/spacing-0_5",
+          "tool": "search_design_system",
+          "query": "spacing",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "spacing-1,5",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "cfbf058222f5b6094381a2d457c380723524a5e1",
+          "key": "f8a108889d7e463506471be21d3d4eac9823a7c4",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Spacing",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Spacing/float/spacing-1_5",
+          "tool": "search_design_system",
+          "query": "spacing",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        },
+        {
+          "name": "spacing-0,75",
+          "libraryName": "📖 nebulaONE.design",
+          "libraryKey": "lk-ff85d2002e574c7a99114441065ba01acc901ee4e7dfacd75c78820c458687ae3e2a4db34a90e9ac69c615980428a62aaebe9291d14bc79975261e35a857be59",
+          "variableType": "FLOAT",
+          "variableSetKey": "cfbf058222f5b6094381a2d457c380723524a5e1",
+          "key": "35ace4f9106d5a6305a66f40ce8a102b29a08a08",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableCollectionName": "[Core] Spacing",
+          "filePath": "design_systems/📖 nebulaONE.design/variables/_Core_ Spacing/float/spacing-0_75",
+          "tool": "search_design_system",
+          "query": "spacing",
+          "observedAt": "2026-10-15T03:26:25.302959+00:00",
+          "evidence": "sources/figma/token-evidence/search_design_system-file.json",
+          "status": "metadata-only-no-value"
+        }
+      ],
+      "unconvertedDefinitions": [],
+      "conflicts": [],
+      "exportedTokenCount": 0,
+      "observedDefinitionCount": 0,
+      "metadataOnlyDefinitionCount": 10
+    }
+  }
+}

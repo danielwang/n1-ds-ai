@@ -1,0 +1,4 @@
+interface:
+  display_name: "N1 Design System"
+  short_description: "Create and review source-backed N1 interfaces"
+  default_prompt: "Use $n1-design-system to create or review this N1 interface using the bundled design references."

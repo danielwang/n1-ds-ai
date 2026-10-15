@@ -1,0 +1,31 @@
+{
+  "observedAt": "2026-10-15T03:41:17.538011+00:00",
+  "tool": "get_design_context",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "886:226439",
+    "clientLanguages": "unknown",
+    "clientFrameworks": "unknown",
+    "skillNames": "resource:figma-design-to-code",
+    "excludeScreenshot": true
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "You've reached the Figma MCP tool call limit for your Full seat on the Organization plan. Upgrade your seat or plan for more tool calls. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/"
+      },
+      {
+        "type": "resource_link",
+        "uri": "file://figma/docs/rate-limits-access.md",
+        "name": "rate-limits-access.md",
+        "mimeType": "text/plain",
+        "size": 3932,
+        "_meta": {
+          "size": 3932
+        }
+      }
+    ],
+    "isError": true
+  }
+}

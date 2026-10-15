@@ -1,0 +1,39 @@
+{
+  "observedAt": "2026-10-15T03:40:49.067753+00:00",
+  "tool": "get_design_context",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "189:111893",
+    "clientLanguages": "unknown",
+    "clientFrameworks": "unknown",
+    "skillNames": "resource:figma-design-to-code",
+    "excludeScreenshot": true
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "const assetPathPrefix = \"https://www.figma.com/api/mcp/asset/b23ea81f-8b88-473e-9370-35d623d4ac46\";\nconst imgImg74571 = `${assetPathPrefix}/85b74.png`;\n\nexport default function Watermark({ className }: { className?: string }) {\n  return (\n    <div className={className || \"content-stretch flex gap-[8px] items-center justify-end relative w-[326px]\"} data-node-id=\"189:111893\" data-name=\"_watermark\">\n      <div className=\"[word-break:break-word] font-['Chakra_Petch:Regular'] leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--grey\\/900,#161c24)] text-right tracking-[0.35px] w-[219px]\" data-node-id=\"189:111891\">\n        <p className=\"leading-[20px] mb-0\">Daniel Wang, UX Designer</p>\n        <p className=\"leading-[20px]\">dwang@gocloudforce.com</p>\n      </div>\n      <div className=\"relative rounded-[1620px] shrink-0 size-[48px]\" data-node-id=\"6659:43223\" data-name=\"IMG_7457 1\">\n        <img alt=\"\" className=\"absolute inset-0 max-w-none object-cover pointer-events-none rounded-[1620px] size-full\" src={imgImg74571} />\n      </div>\n    </div>\n  );\n}"
+      },
+      {
+        "type": "text",
+        "text": "SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.\n1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens\n2. Convert React syntax to the target framework/library\n3. Transform all Tailwind classes to the target styling system while preserving exact visual design\n4. Follow the project's existing patterns and conventions\nDO NOT install any Tailwind as a dependency unless the user instructs you to do so.\n"
+      },
+      {
+        "type": "text",
+        "text": "Node ids have been added to the code as data attributes, e.g. `data-node-id=\"1:2\"`."
+      },
+      {
+        "type": "text",
+        "text": "These styles are contained in the design: Body-Small: Font(family: \"Chakra Petch\", style: Regular, size: 14, weight: 400, lineHeight: 20, letterSpacing: 0.3499999940395355)."
+      },
+      {
+        "type": "text",
+        "text": "The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources."
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "62fe3663-94bf-4217-987f-bbc8624c49ac"
+    }
+  }
+}

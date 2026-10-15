@@ -1,0 +1,19 @@
+{
+  "observedAt": "2026-10-15T03:26:03.327801+00:00",
+  "tool": "get_variable_defs",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "991:131354"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"System/Grey/cf-color-black\":\"#000000\"}"
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "046e9960-7ac5-4fcf-a615-18119ad58706"
+    }
+  }
+}

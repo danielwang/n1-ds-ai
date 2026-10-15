@@ -1,0 +1,35 @@
+{
+  "observedAt": "2026-10-15T03:41:04.116091+00:00",
+  "tool": "get_design_context",
+  "arguments": {
+    "fileKey": "01imXcjljmBfqXhqFmv4kz",
+    "nodeId": "90:70906",
+    "clientLanguages": "unknown",
+    "clientFrameworks": "unknown",
+    "skillNames": "resource:figma-design-to-code",
+    "excludeScreenshot": true
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "const assetPathPrefix = \"https://www.figma.com/api/mcp/asset/73b0c77b-13d0-4926-a107-bc7ae6efca04\";\nconst imgTypeDark = `${assetPathPrefix}/e51d7.svg`;\n\ntype LogoNebulaOneProps = {\n  className?: string;\n  type?: \"dark\";\n};\n\nfunction LogoNebulaOne({ className, type = \"dark\" }: LogoNebulaOneProps) {\n  return (\n    <div className={className || \"h-[148px] relative w-[400px]\"} data-node-id=\"90:70906\">\n      <img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgTypeDark} />\n    </div>\n  );\n}"
+      },
+      {
+        "type": "text",
+        "text": "SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.\n1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens\n2. Convert React syntax to the target framework/library\n3. Transform all Tailwind classes to the target styling system while preserving exact visual design\n4. Follow the project's existing patterns and conventions\nDO NOT install any Tailwind as a dependency unless the user instructs you to do so.\n"
+      },
+      {
+        "type": "text",
+        "text": "Node ids have been added to the code as data attributes, e.g. `data-node-id=\"1:2\"`."
+      },
+      {
+        "type": "text",
+        "text": "The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources."
+      }
+    ],
+    "_meta": {
+      "mcpRequestId": "8a20e1f0-f9f1-47ec-b35b-9672b919f1ab"
+    }
+  }
+}
